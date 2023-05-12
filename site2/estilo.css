@@ -1,4 +1,33 @@
 body{
-background-color: cadetblue;
+background-image: linear-gradient(to right, #346, rgb(105, 0, 119));
+
+}
+#main{
+    width: 500px;
+    height: 200px;
+    background-image: linear-gradient(to left, #803, rgb(34, 46, 102));
+    margin-left: 25%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    border-radius: 40%;
+
+}
+#ligar{
+    width: 100px;
+    height: 70px ;
+    background-image: linear-gradient(to left, #804, #911);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 37%;
+
+}
+#desligar{
+    width: 100px;
+    height: 70px ;
+    background-image: linear-gradient(to left, #804, #911);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: 3%;
 
 }

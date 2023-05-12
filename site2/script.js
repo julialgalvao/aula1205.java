@@ -6,7 +6,7 @@ function tempo (){
     //declarando as variaveis
     let relogio = document.querySelector("#main")
     let hora= new Date()
-    relogio.innerHTML = (hora.toLocaleDateString()).slice(-8)
+    relogio.innerHTML = (hora.toLocaleTimeString()).slice(-8)
 }
 //chamando o queryselector add um evento de click e chamando uma arrow function
 document.querySelector("#ligar").addEventListener('click', ()=>{
